@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/rescue_swarm_bringup/rescue_swarm_bringup.egg-info
+writing ../../build/rescue_swarm_bringup/rescue_swarm_bringup.egg-info/PKG-INFO
+writing dependency_links to ../../build/rescue_swarm_bringup/rescue_swarm_bringup.egg-info/dependency_links.txt
+writing entry points to ../../build/rescue_swarm_bringup/rescue_swarm_bringup.egg-info/entry_points.txt
+writing requirements to ../../build/rescue_swarm_bringup/rescue_swarm_bringup.egg-info/requires.txt
+writing top-level names to ../../build/rescue_swarm_bringup/rescue_swarm_bringup.egg-info/top_level.txt
+writing manifest file '../../build/rescue_swarm_bringup/rescue_swarm_bringup.egg-info/SOURCES.txt'
+reading manifest file '../../build/rescue_swarm_bringup/rescue_swarm_bringup.egg-info/SOURCES.txt'
+writing manifest file '../../build/rescue_swarm_bringup/rescue_swarm_bringup.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/kvn/sar_ws/build/rescue_swarm_bringup/build
+creating /home/kvn/sar_ws/build/rescue_swarm_bringup/build/lib
+creating /home/kvn/sar_ws/build/rescue_swarm_bringup/build/lib/rescue_swarm_bringup
+copying rescue_swarm_bringup/__init__.py -> /home/kvn/sar_ws/build/rescue_swarm_bringup/build/lib/rescue_swarm_bringup
+running install
+running install_lib
+creating /home/kvn/sar_ws/install/rescue_swarm_bringup/lib/python3.10/site-packages/rescue_swarm_bringup
+copying /home/kvn/sar_ws/build/rescue_swarm_bringup/build/lib/rescue_swarm_bringup/__init__.py -> /home/kvn/sar_ws/install/rescue_swarm_bringup/lib/python3.10/site-packages/rescue_swarm_bringup
+byte-compiling /home/kvn/sar_ws/install/rescue_swarm_bringup/lib/python3.10/site-packages/rescue_swarm_bringup/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/kvn/sar_ws/install/rescue_swarm_bringup/share/ament_index
+creating /home/kvn/sar_ws/install/rescue_swarm_bringup/share/ament_index/resource_index
+creating /home/kvn/sar_ws/install/rescue_swarm_bringup/share/ament_index/resource_index/packages
+copying resource/rescue_swarm_bringup -> /home/kvn/sar_ws/install/rescue_swarm_bringup/share/ament_index/resource_index/packages
+copying package.xml -> /home/kvn/sar_ws/install/rescue_swarm_bringup/share/rescue_swarm_bringup
+running install_egg_info
+Copying ../../build/rescue_swarm_bringup/rescue_swarm_bringup.egg-info to /home/kvn/sar_ws/install/rescue_swarm_bringup/lib/python3.10/site-packages/rescue_swarm_bringup-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/kvn/sar_ws/build/rescue_swarm_bringup/install.log'

@@ -1,0 +1,33 @@
+[1.155s] Invoking command in '/home/kvn/sar_ws/src/rescue_swarm_mapping': PYTHONPATH=/home/kvn/sar_ws/build/rescue_swarm_mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kvn/sar_ws/install/rescue_swarm_mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rescue_swarm_mapping build --build-base /home/kvn/sar_ws/build/rescue_swarm_mapping/build install --record /home/kvn/sar_ws/build/rescue_swarm_mapping/install.log --single-version-externally-managed install_data
+[1.329s] running egg_info
+[1.330s] creating ../../build/rescue_swarm_mapping/rescue_swarm_mapping.egg-info
+[1.330s] writing ../../build/rescue_swarm_mapping/rescue_swarm_mapping.egg-info/PKG-INFO
+[1.330s] writing dependency_links to ../../build/rescue_swarm_mapping/rescue_swarm_mapping.egg-info/dependency_links.txt
+[1.330s] writing entry points to ../../build/rescue_swarm_mapping/rescue_swarm_mapping.egg-info/entry_points.txt
+[1.330s] writing requirements to ../../build/rescue_swarm_mapping/rescue_swarm_mapping.egg-info/requires.txt
+[1.330s] writing top-level names to ../../build/rescue_swarm_mapping/rescue_swarm_mapping.egg-info/top_level.txt
+[1.330s] writing manifest file '../../build/rescue_swarm_mapping/rescue_swarm_mapping.egg-info/SOURCES.txt'
+[1.331s] reading manifest file '../../build/rescue_swarm_mapping/rescue_swarm_mapping.egg-info/SOURCES.txt'
+[1.332s] writing manifest file '../../build/rescue_swarm_mapping/rescue_swarm_mapping.egg-info/SOURCES.txt'
+[1.332s] running build
+[1.332s] running build_py
+[1.332s] creating /home/kvn/sar_ws/build/rescue_swarm_mapping/build
+[1.332s] creating /home/kvn/sar_ws/build/rescue_swarm_mapping/build/lib
+[1.332s] creating /home/kvn/sar_ws/build/rescue_swarm_mapping/build/lib/rescue_swarm_mapping
+[1.332s] copying rescue_swarm_mapping/__init__.py -> /home/kvn/sar_ws/build/rescue_swarm_mapping/build/lib/rescue_swarm_mapping
+[1.332s] running install
+[1.333s] running install_lib
+[1.333s] creating /home/kvn/sar_ws/install/rescue_swarm_mapping/lib/python3.10/site-packages/rescue_swarm_mapping
+[1.333s] copying /home/kvn/sar_ws/build/rescue_swarm_mapping/build/lib/rescue_swarm_mapping/__init__.py -> /home/kvn/sar_ws/install/rescue_swarm_mapping/lib/python3.10/site-packages/rescue_swarm_mapping
+[1.333s] byte-compiling /home/kvn/sar_ws/install/rescue_swarm_mapping/lib/python3.10/site-packages/rescue_swarm_mapping/__init__.py to __init__.cpython-310.pyc
+[1.333s] running install_data
+[1.333s] creating /home/kvn/sar_ws/install/rescue_swarm_mapping/share/ament_index
+[1.333s] creating /home/kvn/sar_ws/install/rescue_swarm_mapping/share/ament_index/resource_index
+[1.334s] creating /home/kvn/sar_ws/install/rescue_swarm_mapping/share/ament_index/resource_index/packages
+[1.334s] copying resource/rescue_swarm_mapping -> /home/kvn/sar_ws/install/rescue_swarm_mapping/share/ament_index/resource_index/packages
+[1.334s] copying package.xml -> /home/kvn/sar_ws/install/rescue_swarm_mapping/share/rescue_swarm_mapping
+[1.334s] running install_egg_info
+[1.335s] Copying ../../build/rescue_swarm_mapping/rescue_swarm_mapping.egg-info to /home/kvn/sar_ws/install/rescue_swarm_mapping/lib/python3.10/site-packages/rescue_swarm_mapping-0.0.0-py3.10.egg-info
+[1.335s] running install_scripts
+[1.350s] writing list of installed files to '/home/kvn/sar_ws/build/rescue_swarm_mapping/install.log'
+[1.368s] Invoked command in '/home/kvn/sar_ws/src/rescue_swarm_mapping' returned '0': PYTHONPATH=/home/kvn/sar_ws/build/rescue_swarm_mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kvn/sar_ws/install/rescue_swarm_mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rescue_swarm_mapping build --build-base /home/kvn/sar_ws/build/rescue_swarm_mapping/build install --record /home/kvn/sar_ws/build/rescue_swarm_mapping/install.log --single-version-externally-managed install_data

@@ -1,0 +1,413 @@
+[0.124s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.124s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7d051965abc0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7d051976fbe0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7d051976fbe0>>, mixin_verb=('build',))
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.301s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kvn/sar_ws'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/references) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/references) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/references) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/references) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/references) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/references) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/references) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/references) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/references) by extension 'ros'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/references) by extensions ['cmake', 'python']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/references) by extension 'cmake'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/references) by extension 'python'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/references) by extensions ['python_setup_py']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/references) by extension 'python_setup_py'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_bot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_bot_description) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_bot_description) by extension 'ignore_ament_install'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_bot_description) by extensions ['colcon_pkg']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_bot_description) by extension 'colcon_pkg'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_bot_description) by extensions ['colcon_meta']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_bot_description) by extension 'colcon_meta'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_bot_description) by extensions ['ros']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_bot_description) by extension 'ros'
+[0.311s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rescue_bot_description' with type 'ros.ament_python' and name 'rescue_bot_description'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_bringup) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_bringup) by extension 'ignore_ament_install'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_bringup) by extensions ['colcon_pkg']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_bringup) by extension 'colcon_pkg'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_bringup) by extensions ['colcon_meta']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_bringup) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_bringup) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_bringup) by extension 'ros'
+[0.312s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rescue_swarm_bringup' with type 'ros.ament_python' and name 'rescue_swarm_bringup'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_control) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_control) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_control) by extension 'ignore_ament_install'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_control) by extensions ['colcon_pkg']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_control) by extension 'colcon_pkg'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_control) by extensions ['colcon_meta']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_control) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_control) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_control) by extension 'ros'
+[0.313s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rescue_swarm_control' with type 'ros.ament_python' and name 'rescue_swarm_control'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_interfaces) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_interfaces) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_interfaces) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_interfaces) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_interfaces) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_interfaces) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_interfaces) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_interfaces) by extension 'ros'
+[0.313s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rescue_swarm_interfaces' with type 'ros.ament_cmake' and name 'rescue_swarm_interfaces'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_mapping) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_mapping) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_mapping) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_mapping) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_mapping) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_mapping) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_mapping) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_mapping) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_mapping) by extension 'ros'
+[0.314s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rescue_swarm_mapping' with type 'ros.ament_python' and name 'rescue_swarm_mapping'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_vision) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_vision) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_vision) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_vision) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_vision) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_vision) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_vision) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_vision) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/rescue_swarm_vision) by extension 'ros'
+[0.314s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rescue_swarm_vision' with type 'ros.ament_python' and name 'rescue_swarm_vision'
+[0.314s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.314s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.314s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.314s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.314s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.339s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.339s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.340s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/kvn/sar_ws/install/rescue_swarm_vision' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.340s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/kvn/sar_ws/install/rescue_swarm_mapping' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.340s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/kvn/sar_ws/install/rescue_swarm_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.340s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/kvn/sar_ws/install/rescue_swarm_control' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.340s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/kvn/sar_ws/install/rescue_swarm_bringup' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.340s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/kvn/sar_ws/install/rescue_bot_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.341s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/kvn/sar_ws/install/rescue_swarm_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.341s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/kvn/sar_ws/install
+[0.341s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/kvn/swarm_ws/install
+[0.342s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 283 installed packages in /opt/ros/humble
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'rescue_bot_description' build argument 'cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'rescue_bot_description' build argument 'cmake_target' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'rescue_bot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'rescue_bot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'rescue_bot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'rescue_bot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'rescue_bot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'rescue_bot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'rescue_bot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.395s] DEBUG:colcon.colcon_core.verb:Building package 'rescue_bot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kvn/sar_ws/build/rescue_bot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kvn/sar_ws/install/rescue_bot_description', 'merge_install': False, 'path': '/home/kvn/sar_ws/src/rescue_bot_description', 'symlink_install': False, 'test_result_base': None}
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_bringup' build argument 'cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_bringup' build argument 'cmake_target' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.395s] DEBUG:colcon.colcon_core.verb:Building package 'rescue_swarm_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kvn/sar_ws/build/rescue_swarm_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kvn/sar_ws/install/rescue_swarm_bringup', 'merge_install': False, 'path': '/home/kvn/sar_ws/src/rescue_swarm_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_control' build argument 'cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_control' build argument 'cmake_target' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.396s] DEBUG:colcon.colcon_core.verb:Building package 'rescue_swarm_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kvn/sar_ws/build/rescue_swarm_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kvn/sar_ws/install/rescue_swarm_control', 'merge_install': False, 'path': '/home/kvn/sar_ws/src/rescue_swarm_control', 'symlink_install': False, 'test_result_base': None}
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.396s] DEBUG:colcon.colcon_core.verb:Building package 'rescue_swarm_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kvn/sar_ws/build/rescue_swarm_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kvn/sar_ws/install/rescue_swarm_interfaces', 'merge_install': False, 'path': '/home/kvn/sar_ws/src/rescue_swarm_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_mapping' build argument 'cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_mapping' build argument 'cmake_target' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_mapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_mapping' build argument 'cmake_clean_cache' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_mapping' build argument 'cmake_clean_first' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_mapping' build argument 'cmake_force_configure' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_mapping' build argument 'ament_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_mapping' build argument 'catkin_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_mapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.396s] DEBUG:colcon.colcon_core.verb:Building package 'rescue_swarm_mapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kvn/sar_ws/build/rescue_swarm_mapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kvn/sar_ws/install/rescue_swarm_mapping', 'merge_install': False, 'path': '/home/kvn/sar_ws/src/rescue_swarm_mapping', 'symlink_install': False, 'test_result_base': None}
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_vision' build argument 'cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_vision' build argument 'cmake_target' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_vision' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_vision' build argument 'cmake_clean_cache' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_vision' build argument 'cmake_clean_first' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_vision' build argument 'cmake_force_configure' from command line to 'False'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_vision' build argument 'ament_cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_vision' build argument 'catkin_cmake_args' from command line to 'None'
+[0.397s] Level 5:colcon.colcon_core.verb:set package 'rescue_swarm_vision' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.397s] DEBUG:colcon.colcon_core.verb:Building package 'rescue_swarm_vision' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kvn/sar_ws/build/rescue_swarm_vision', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kvn/sar_ws/install/rescue_swarm_vision', 'merge_install': False, 'path': '/home/kvn/sar_ws/src/rescue_swarm_vision', 'symlink_install': False, 'test_result_base': None}
+[0.397s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.398s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.398s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kvn/sar_ws/src/rescue_bot_description' with build type 'ament_python'
+[0.398s] Level 1:colcon.colcon_core.shell:create_environment_hook('rescue_bot_description', 'ament_prefix_path')
+[0.403s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvn/sar_ws/install/rescue_bot_description/share/rescue_bot_description/hook/ament_prefix_path.ps1'
+[0.403s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kvn/sar_ws/install/rescue_bot_description/share/rescue_bot_description/hook/ament_prefix_path.dsv'
+[0.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvn/sar_ws/install/rescue_bot_description/share/rescue_bot_description/hook/ament_prefix_path.sh'
+[0.404s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.404s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.406s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kvn/sar_ws/src/rescue_swarm_bringup' with build type 'ament_python'
+[0.406s] Level 1:colcon.colcon_core.shell:create_environment_hook('rescue_swarm_bringup', 'ament_prefix_path')
+[0.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvn/sar_ws/install/rescue_swarm_bringup/share/rescue_swarm_bringup/hook/ament_prefix_path.ps1'
+[0.407s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kvn/sar_ws/install/rescue_swarm_bringup/share/rescue_swarm_bringup/hook/ament_prefix_path.dsv'
+[0.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvn/sar_ws/install/rescue_swarm_bringup/share/rescue_swarm_bringup/hook/ament_prefix_path.sh'
+[0.407s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.407s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.409s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kvn/sar_ws/src/rescue_swarm_control' with build type 'ament_python'
+[0.409s] Level 1:colcon.colcon_core.shell:create_environment_hook('rescue_swarm_control', 'ament_prefix_path')
+[0.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvn/sar_ws/install/rescue_swarm_control/share/rescue_swarm_control/hook/ament_prefix_path.ps1'
+[0.410s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kvn/sar_ws/install/rescue_swarm_control/share/rescue_swarm_control/hook/ament_prefix_path.dsv'
+[0.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvn/sar_ws/install/rescue_swarm_control/share/rescue_swarm_control/hook/ament_prefix_path.sh'
+[0.411s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.411s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.413s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kvn/sar_ws/src/rescue_swarm_interfaces' with build type 'ament_cmake'
+[0.414s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kvn/sar_ws/src/rescue_swarm_interfaces'
+[0.414s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.414s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.416s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kvn/sar_ws/src/rescue_swarm_mapping' with build type 'ament_python'
+[0.416s] Level 1:colcon.colcon_core.shell:create_environment_hook('rescue_swarm_mapping', 'ament_prefix_path')
+[0.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvn/sar_ws/install/rescue_swarm_mapping/share/rescue_swarm_mapping/hook/ament_prefix_path.ps1'
+[0.417s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kvn/sar_ws/install/rescue_swarm_mapping/share/rescue_swarm_mapping/hook/ament_prefix_path.dsv'
+[0.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvn/sar_ws/install/rescue_swarm_mapping/share/rescue_swarm_mapping/hook/ament_prefix_path.sh'
+[0.417s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.417s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.419s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/kvn/sar_ws/src/rescue_swarm_vision' with build type 'ament_python'
+[0.419s] Level 1:colcon.colcon_core.shell:create_environment_hook('rescue_swarm_vision', 'ament_prefix_path')
+[0.419s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvn/sar_ws/install/rescue_swarm_vision/share/rescue_swarm_vision/hook/ament_prefix_path.ps1'
+[0.420s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kvn/sar_ws/install/rescue_swarm_vision/share/rescue_swarm_vision/hook/ament_prefix_path.dsv'
+[0.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvn/sar_ws/install/rescue_swarm_vision/share/rescue_swarm_vision/hook/ament_prefix_path.sh'
+[0.420s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.420s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.578s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kvn/sar_ws/src/rescue_bot_description'
+[0.578s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.578s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.743s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kvn/sar_ws/src/rescue_swarm_bringup'
+[0.743s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.743s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.910s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kvn/sar_ws/src/rescue_swarm_control'
+[0.910s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.910s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kvn/sar_ws/build/rescue_swarm_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kvn/sar_ws/install/rescue_swarm_vision:/home/kvn/sar_ws/install/rescue_swarm_mapping:/home/kvn/sar_ws/install/rescue_swarm_control:/home/kvn/sar_ws/install/rescue_swarm_bringup:/home/kvn/sar_ws/install/rescue_bot_description:/home/kvn/swarm_ws/install/swarm_simulation:/opt/ros/humble /usr/bin/cmake /home/kvn/sar_ws/src/rescue_swarm_interfaces -DCMAKE_INSTALL_PREFIX=/home/kvn/sar_ws/install/rescue_swarm_interfaces
+[1.077s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kvn/sar_ws/src/rescue_swarm_mapping'
+[1.077s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.077s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.242s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/kvn/sar_ws/src/rescue_swarm_vision'
+[1.242s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.242s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kvn/sar_ws/src/rescue_swarm_vision': PYTHONPATH=/home/kvn/sar_ws/build/rescue_swarm_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kvn/sar_ws/install/rescue_swarm_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rescue_swarm_vision build --build-base /home/kvn/sar_ws/build/rescue_swarm_vision/build install --record /home/kvn/sar_ws/build/rescue_swarm_vision/install.log --single-version-externally-managed install_data
+[1.485s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kvn/sar_ws/src/rescue_swarm_control': PYTHONPATH=/home/kvn/sar_ws/build/rescue_swarm_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kvn/sar_ws/install/rescue_swarm_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rescue_swarm_control build --build-base /home/kvn/sar_ws/build/rescue_swarm_control/build install --record /home/kvn/sar_ws/build/rescue_swarm_control/install.log --single-version-externally-managed install_data
+[1.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kvn/sar_ws/src/rescue_bot_description': PYTHONPATH=/home/kvn/sar_ws/build/rescue_bot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kvn/sar_ws/install/rescue_bot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rescue_bot_description build --build-base /home/kvn/sar_ws/build/rescue_bot_description/build install --record /home/kvn/sar_ws/build/rescue_bot_description/install.log --single-version-externally-managed install_data
+[1.500s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kvn/sar_ws/src/rescue_swarm_bringup': PYTHONPATH=/home/kvn/sar_ws/build/rescue_swarm_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kvn/sar_ws/install/rescue_swarm_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rescue_swarm_bringup build --build-base /home/kvn/sar_ws/build/rescue_swarm_bringup/build install --record /home/kvn/sar_ws/build/rescue_swarm_bringup/install.log --single-version-externally-managed install_data
+[1.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kvn/sar_ws/build/rescue_swarm_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kvn/sar_ws/install/rescue_swarm_vision:/home/kvn/sar_ws/install/rescue_swarm_mapping:/home/kvn/sar_ws/install/rescue_swarm_control:/home/kvn/sar_ws/install/rescue_swarm_bringup:/home/kvn/sar_ws/install/rescue_bot_description:/home/kvn/swarm_ws/install/swarm_simulation:/opt/ros/humble /usr/bin/cmake /home/kvn/sar_ws/src/rescue_swarm_interfaces -DCMAKE_INSTALL_PREFIX=/home/kvn/sar_ws/install/rescue_swarm_interfaces
+[1.532s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kvn/sar_ws/build/rescue_swarm_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kvn/sar_ws/install/rescue_swarm_vision:/home/kvn/sar_ws/install/rescue_swarm_mapping:/home/kvn/sar_ws/install/rescue_swarm_control:/home/kvn/sar_ws/install/rescue_swarm_bringup:/home/kvn/sar_ws/install/rescue_bot_description:/home/kvn/swarm_ws/install/swarm_simulation:/opt/ros/humble /usr/bin/cmake --build /home/kvn/sar_ws/build/rescue_swarm_interfaces -- -j12 -l12
+[1.572s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kvn/sar_ws/src/rescue_swarm_mapping': PYTHONPATH=/home/kvn/sar_ws/build/rescue_swarm_mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kvn/sar_ws/install/rescue_swarm_mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rescue_swarm_mapping build --build-base /home/kvn/sar_ws/build/rescue_swarm_mapping/build install --record /home/kvn/sar_ws/build/rescue_swarm_mapping/install.log --single-version-externally-managed install_data
+[1.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kvn/sar_ws/build/rescue_swarm_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kvn/sar_ws/install/rescue_swarm_vision:/home/kvn/sar_ws/install/rescue_swarm_mapping:/home/kvn/sar_ws/install/rescue_swarm_control:/home/kvn/sar_ws/install/rescue_swarm_bringup:/home/kvn/sar_ws/install/rescue_bot_description:/home/kvn/swarm_ws/install/swarm_simulation:/opt/ros/humble /usr/bin/cmake --build /home/kvn/sar_ws/build/rescue_swarm_interfaces -- -j12 -l12
+[1.580s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kvn/sar_ws/build/rescue_swarm_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kvn/sar_ws/install/rescue_swarm_vision:/home/kvn/sar_ws/install/rescue_swarm_mapping:/home/kvn/sar_ws/install/rescue_swarm_control:/home/kvn/sar_ws/install/rescue_swarm_bringup:/home/kvn/sar_ws/install/rescue_bot_description:/home/kvn/swarm_ws/install/swarm_simulation:/opt/ros/humble /usr/bin/cmake --install /home/kvn/sar_ws/build/rescue_swarm_interfaces
+[1.587s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rescue_swarm_interfaces)
+[1.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kvn/sar_ws/build/rescue_swarm_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kvn/sar_ws/install/rescue_swarm_vision:/home/kvn/sar_ws/install/rescue_swarm_mapping:/home/kvn/sar_ws/install/rescue_swarm_control:/home/kvn/sar_ws/install/rescue_swarm_bringup:/home/kvn/sar_ws/install/rescue_bot_description:/home/kvn/swarm_ws/install/swarm_simulation:/opt/ros/humble /usr/bin/cmake --install /home/kvn/sar_ws/build/rescue_swarm_interfaces
+[1.592s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_interfaces' for CMake module files
+[1.593s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_interfaces' for CMake config files
+[1.593s] Level 1:colcon.colcon_core.shell:create_environment_hook('rescue_swarm_interfaces', 'cmake_prefix_path')
+[1.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvn/sar_ws/install/rescue_swarm_interfaces/share/rescue_swarm_interfaces/hook/cmake_prefix_path.ps1'
+[1.594s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kvn/sar_ws/install/rescue_swarm_interfaces/share/rescue_swarm_interfaces/hook/cmake_prefix_path.dsv'
+[1.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvn/sar_ws/install/rescue_swarm_interfaces/share/rescue_swarm_interfaces/hook/cmake_prefix_path.sh'
+[1.595s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_interfaces/bin'
+[1.595s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_interfaces/lib/pkgconfig/rescue_swarm_interfaces.pc'
+[1.595s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_interfaces/lib/python3.10/site-packages'
+[1.596s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_interfaces/bin'
+[1.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvn/sar_ws/install/rescue_swarm_interfaces/share/rescue_swarm_interfaces/package.ps1'
+[1.597s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kvn/sar_ws/install/rescue_swarm_interfaces/share/rescue_swarm_interfaces/package.dsv'
+[1.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvn/sar_ws/install/rescue_swarm_interfaces/share/rescue_swarm_interfaces/package.sh'
+[1.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvn/sar_ws/install/rescue_swarm_interfaces/share/rescue_swarm_interfaces/package.bash'
+[1.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvn/sar_ws/install/rescue_swarm_interfaces/share/rescue_swarm_interfaces/package.zsh'
+[1.598s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kvn/sar_ws/install/rescue_swarm_interfaces/share/colcon-core/packages/rescue_swarm_interfaces)
+[1.599s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rescue_swarm_interfaces)
+[1.599s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_interfaces' for CMake module files
+[1.599s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_interfaces' for CMake config files
+[1.599s] Level 1:colcon.colcon_core.shell:create_environment_hook('rescue_swarm_interfaces', 'cmake_prefix_path')
+[1.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvn/sar_ws/install/rescue_swarm_interfaces/share/rescue_swarm_interfaces/hook/cmake_prefix_path.ps1'
+[1.600s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kvn/sar_ws/install/rescue_swarm_interfaces/share/rescue_swarm_interfaces/hook/cmake_prefix_path.dsv'
+[1.600s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvn/sar_ws/install/rescue_swarm_interfaces/share/rescue_swarm_interfaces/hook/cmake_prefix_path.sh'
+[1.600s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_interfaces/bin'
+[1.600s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_interfaces/lib/pkgconfig/rescue_swarm_interfaces.pc'
+[1.600s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_interfaces/lib/python3.10/site-packages'
+[1.600s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_interfaces/bin'
+[1.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvn/sar_ws/install/rescue_swarm_interfaces/share/rescue_swarm_interfaces/package.ps1'
+[1.601s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kvn/sar_ws/install/rescue_swarm_interfaces/share/rescue_swarm_interfaces/package.dsv'
+[1.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvn/sar_ws/install/rescue_swarm_interfaces/share/rescue_swarm_interfaces/package.sh'
+[1.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvn/sar_ws/install/rescue_swarm_interfaces/share/rescue_swarm_interfaces/package.bash'
+[1.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvn/sar_ws/install/rescue_swarm_interfaces/share/rescue_swarm_interfaces/package.zsh'
+[1.602s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kvn/sar_ws/install/rescue_swarm_interfaces/share/colcon-core/packages/rescue_swarm_interfaces)
+[1.684s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_control' for CMake module files
+[1.684s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kvn/sar_ws/src/rescue_swarm_control' returned '0': PYTHONPATH=/home/kvn/sar_ws/build/rescue_swarm_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kvn/sar_ws/install/rescue_swarm_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rescue_swarm_control build --build-base /home/kvn/sar_ws/build/rescue_swarm_control/build install --record /home/kvn/sar_ws/build/rescue_swarm_control/install.log --single-version-externally-managed install_data
+[1.685s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_control' for CMake config files
+[1.685s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_control/lib'
+[1.685s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_control/bin'
+[1.685s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_control/lib/pkgconfig/rescue_swarm_control.pc'
+[1.686s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_control/lib/python3.10/site-packages'
+[1.686s] Level 1:colcon.colcon_core.shell:create_environment_hook('rescue_swarm_control', 'pythonpath')
+[1.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvn/sar_ws/install/rescue_swarm_control/share/rescue_swarm_control/hook/pythonpath.ps1'
+[1.686s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kvn/sar_ws/install/rescue_swarm_control/share/rescue_swarm_control/hook/pythonpath.dsv'
+[1.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvn/sar_ws/install/rescue_swarm_control/share/rescue_swarm_control/hook/pythonpath.sh'
+[1.687s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_control/bin'
+[1.687s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rescue_swarm_control)
+[1.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvn/sar_ws/install/rescue_swarm_control/share/rescue_swarm_control/package.ps1'
+[1.688s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kvn/sar_ws/install/rescue_swarm_control/share/rescue_swarm_control/package.dsv'
+[1.688s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvn/sar_ws/install/rescue_swarm_control/share/rescue_swarm_control/package.sh'
+[1.688s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvn/sar_ws/install/rescue_swarm_control/share/rescue_swarm_control/package.bash'
+[1.688s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvn/sar_ws/install/rescue_swarm_control/share/rescue_swarm_control/package.zsh'
+[1.689s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kvn/sar_ws/install/rescue_swarm_control/share/colcon-core/packages/rescue_swarm_control)
+[1.698s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_bot_description' for CMake module files
+[1.698s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kvn/sar_ws/src/rescue_bot_description' returned '0': PYTHONPATH=/home/kvn/sar_ws/build/rescue_bot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kvn/sar_ws/install/rescue_bot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rescue_bot_description build --build-base /home/kvn/sar_ws/build/rescue_bot_description/build install --record /home/kvn/sar_ws/build/rescue_bot_description/install.log --single-version-externally-managed install_data
+[1.699s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_bot_description' for CMake config files
+[1.699s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_bot_description/lib'
+[1.699s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_bot_description/bin'
+[1.699s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_bot_description/lib/pkgconfig/rescue_bot_description.pc'
+[1.699s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_bot_description/lib/python3.10/site-packages'
+[1.699s] Level 1:colcon.colcon_core.shell:create_environment_hook('rescue_bot_description', 'pythonpath')
+[1.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvn/sar_ws/install/rescue_bot_description/share/rescue_bot_description/hook/pythonpath.ps1'
+[1.700s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kvn/sar_ws/install/rescue_bot_description/share/rescue_bot_description/hook/pythonpath.dsv'
+[1.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvn/sar_ws/install/rescue_bot_description/share/rescue_bot_description/hook/pythonpath.sh'
+[1.701s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_bot_description/bin'
+[1.701s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rescue_bot_description)
+[1.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvn/sar_ws/install/rescue_bot_description/share/rescue_bot_description/package.ps1'
+[1.701s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kvn/sar_ws/install/rescue_bot_description/share/rescue_bot_description/package.dsv'
+[1.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvn/sar_ws/install/rescue_bot_description/share/rescue_bot_description/package.sh'
+[1.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvn/sar_ws/install/rescue_bot_description/share/rescue_bot_description/package.bash'
+[1.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvn/sar_ws/install/rescue_bot_description/share/rescue_bot_description/package.zsh'
+[1.702s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kvn/sar_ws/install/rescue_bot_description/share/colcon-core/packages/rescue_bot_description)
+[1.703s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_bringup' for CMake module files
+[1.704s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kvn/sar_ws/src/rescue_swarm_bringup' returned '0': PYTHONPATH=/home/kvn/sar_ws/build/rescue_swarm_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kvn/sar_ws/install/rescue_swarm_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rescue_swarm_bringup build --build-base /home/kvn/sar_ws/build/rescue_swarm_bringup/build install --record /home/kvn/sar_ws/build/rescue_swarm_bringup/install.log --single-version-externally-managed install_data
+[1.704s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_bringup' for CMake config files
+[1.704s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_bringup/lib'
+[1.704s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_bringup/bin'
+[1.704s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_bringup/lib/pkgconfig/rescue_swarm_bringup.pc'
+[1.705s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_bringup/lib/python3.10/site-packages'
+[1.705s] Level 1:colcon.colcon_core.shell:create_environment_hook('rescue_swarm_bringup', 'pythonpath')
+[1.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvn/sar_ws/install/rescue_swarm_bringup/share/rescue_swarm_bringup/hook/pythonpath.ps1'
+[1.705s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kvn/sar_ws/install/rescue_swarm_bringup/share/rescue_swarm_bringup/hook/pythonpath.dsv'
+[1.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvn/sar_ws/install/rescue_swarm_bringup/share/rescue_swarm_bringup/hook/pythonpath.sh'
+[1.706s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_bringup/bin'
+[1.706s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rescue_swarm_bringup)
+[1.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvn/sar_ws/install/rescue_swarm_bringup/share/rescue_swarm_bringup/package.ps1'
+[1.706s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kvn/sar_ws/install/rescue_swarm_bringup/share/rescue_swarm_bringup/package.dsv'
+[1.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvn/sar_ws/install/rescue_swarm_bringup/share/rescue_swarm_bringup/package.sh'
+[1.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvn/sar_ws/install/rescue_swarm_bringup/share/rescue_swarm_bringup/package.bash'
+[1.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvn/sar_ws/install/rescue_swarm_bringup/share/rescue_swarm_bringup/package.zsh'
+[1.707s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kvn/sar_ws/install/rescue_swarm_bringup/share/colcon-core/packages/rescue_swarm_bringup)
+[1.768s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_vision' for CMake module files
+[1.768s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kvn/sar_ws/src/rescue_swarm_vision' returned '0': PYTHONPATH=/home/kvn/sar_ws/build/rescue_swarm_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kvn/sar_ws/install/rescue_swarm_vision/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rescue_swarm_vision build --build-base /home/kvn/sar_ws/build/rescue_swarm_vision/build install --record /home/kvn/sar_ws/build/rescue_swarm_vision/install.log --single-version-externally-managed install_data
+[1.768s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_vision' for CMake config files
+[1.769s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_vision/lib'
+[1.769s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_vision/bin'
+[1.769s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_vision/lib/pkgconfig/rescue_swarm_vision.pc'
+[1.769s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_vision/lib/python3.10/site-packages'
+[1.769s] Level 1:colcon.colcon_core.shell:create_environment_hook('rescue_swarm_vision', 'pythonpath')
+[1.769s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvn/sar_ws/install/rescue_swarm_vision/share/rescue_swarm_vision/hook/pythonpath.ps1'
+[1.770s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kvn/sar_ws/install/rescue_swarm_vision/share/rescue_swarm_vision/hook/pythonpath.dsv'
+[1.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvn/sar_ws/install/rescue_swarm_vision/share/rescue_swarm_vision/hook/pythonpath.sh'
+[1.770s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_vision/bin'
+[1.770s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rescue_swarm_vision)
+[1.770s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvn/sar_ws/install/rescue_swarm_vision/share/rescue_swarm_vision/package.ps1'
+[1.771s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kvn/sar_ws/install/rescue_swarm_vision/share/rescue_swarm_vision/package.dsv'
+[1.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvn/sar_ws/install/rescue_swarm_vision/share/rescue_swarm_vision/package.sh'
+[1.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvn/sar_ws/install/rescue_swarm_vision/share/rescue_swarm_vision/package.bash'
+[1.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvn/sar_ws/install/rescue_swarm_vision/share/rescue_swarm_vision/package.zsh'
+[1.772s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kvn/sar_ws/install/rescue_swarm_vision/share/colcon-core/packages/rescue_swarm_vision)
+[1.784s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_mapping' for CMake module files
+[1.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kvn/sar_ws/src/rescue_swarm_mapping' returned '0': PYTHONPATH=/home/kvn/sar_ws/build/rescue_swarm_mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kvn/sar_ws/install/rescue_swarm_mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rescue_swarm_mapping build --build-base /home/kvn/sar_ws/build/rescue_swarm_mapping/build install --record /home/kvn/sar_ws/build/rescue_swarm_mapping/install.log --single-version-externally-managed install_data
+[1.785s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_mapping' for CMake config files
+[1.785s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_mapping/lib'
+[1.785s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_mapping/bin'
+[1.785s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_mapping/lib/pkgconfig/rescue_swarm_mapping.pc'
+[1.786s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_mapping/lib/python3.10/site-packages'
+[1.786s] Level 1:colcon.colcon_core.shell:create_environment_hook('rescue_swarm_mapping', 'pythonpath')
+[1.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvn/sar_ws/install/rescue_swarm_mapping/share/rescue_swarm_mapping/hook/pythonpath.ps1'
+[1.786s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kvn/sar_ws/install/rescue_swarm_mapping/share/rescue_swarm_mapping/hook/pythonpath.dsv'
+[1.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kvn/sar_ws/install/rescue_swarm_mapping/share/rescue_swarm_mapping/hook/pythonpath.sh'
+[1.787s] Level 1:colcon.colcon_core.environment:checking '/home/kvn/sar_ws/install/rescue_swarm_mapping/bin'
+[1.787s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rescue_swarm_mapping)
+[1.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvn/sar_ws/install/rescue_swarm_mapping/share/rescue_swarm_mapping/package.ps1'
+[1.787s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kvn/sar_ws/install/rescue_swarm_mapping/share/rescue_swarm_mapping/package.dsv'
+[1.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvn/sar_ws/install/rescue_swarm_mapping/share/rescue_swarm_mapping/package.sh'
+[1.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvn/sar_ws/install/rescue_swarm_mapping/share/rescue_swarm_mapping/package.bash'
+[1.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/kvn/sar_ws/install/rescue_swarm_mapping/share/rescue_swarm_mapping/package.zsh'
+[1.788s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kvn/sar_ws/install/rescue_swarm_mapping/share/colcon-core/packages/rescue_swarm_mapping)
+[1.788s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.788s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.788s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.788s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.792s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.792s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.792s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.800s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.800s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kvn/sar_ws/install/local_setup.ps1'
+[1.801s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kvn/sar_ws/install/_local_setup_util_ps1.py'
+[1.802s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kvn/sar_ws/install/setup.ps1'
+[1.804s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kvn/sar_ws/install/local_setup.sh'
+[1.805s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kvn/sar_ws/install/_local_setup_util_sh.py'
+[1.805s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kvn/sar_ws/install/setup.sh'
+[1.807s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kvn/sar_ws/install/local_setup.bash'
+[1.807s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kvn/sar_ws/install/setup.bash'
+[1.808s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kvn/sar_ws/install/local_setup.zsh'
+[1.809s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kvn/sar_ws/install/setup.zsh'

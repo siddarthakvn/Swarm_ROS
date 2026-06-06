@@ -1,0 +1,33 @@
+[1.094s] Invoking command in '/home/kvn/sar_ws/src/rescue_swarm_bringup': PYTHONPATH=/home/kvn/sar_ws/build/rescue_swarm_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kvn/sar_ws/install/rescue_swarm_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rescue_swarm_bringup build --build-base /home/kvn/sar_ws/build/rescue_swarm_bringup/build install --record /home/kvn/sar_ws/build/rescue_swarm_bringup/install.log --single-version-externally-managed install_data
+[1.250s] running egg_info
+[1.251s] creating ../../build/rescue_swarm_bringup/rescue_swarm_bringup.egg-info
+[1.251s] writing ../../build/rescue_swarm_bringup/rescue_swarm_bringup.egg-info/PKG-INFO
+[1.251s] writing dependency_links to ../../build/rescue_swarm_bringup/rescue_swarm_bringup.egg-info/dependency_links.txt
+[1.251s] writing entry points to ../../build/rescue_swarm_bringup/rescue_swarm_bringup.egg-info/entry_points.txt
+[1.251s] writing requirements to ../../build/rescue_swarm_bringup/rescue_swarm_bringup.egg-info/requires.txt
+[1.251s] writing top-level names to ../../build/rescue_swarm_bringup/rescue_swarm_bringup.egg-info/top_level.txt
+[1.251s] writing manifest file '../../build/rescue_swarm_bringup/rescue_swarm_bringup.egg-info/SOURCES.txt'
+[1.252s] reading manifest file '../../build/rescue_swarm_bringup/rescue_swarm_bringup.egg-info/SOURCES.txt'
+[1.253s] writing manifest file '../../build/rescue_swarm_bringup/rescue_swarm_bringup.egg-info/SOURCES.txt'
+[1.253s] running build
+[1.253s] running build_py
+[1.254s] creating /home/kvn/sar_ws/build/rescue_swarm_bringup/build
+[1.254s] creating /home/kvn/sar_ws/build/rescue_swarm_bringup/build/lib
+[1.254s] creating /home/kvn/sar_ws/build/rescue_swarm_bringup/build/lib/rescue_swarm_bringup
+[1.254s] copying rescue_swarm_bringup/__init__.py -> /home/kvn/sar_ws/build/rescue_swarm_bringup/build/lib/rescue_swarm_bringup
+[1.254s] running install
+[1.254s] running install_lib
+[1.254s] creating /home/kvn/sar_ws/install/rescue_swarm_bringup/lib/python3.10/site-packages/rescue_swarm_bringup
+[1.255s] copying /home/kvn/sar_ws/build/rescue_swarm_bringup/build/lib/rescue_swarm_bringup/__init__.py -> /home/kvn/sar_ws/install/rescue_swarm_bringup/lib/python3.10/site-packages/rescue_swarm_bringup
+[1.255s] byte-compiling /home/kvn/sar_ws/install/rescue_swarm_bringup/lib/python3.10/site-packages/rescue_swarm_bringup/__init__.py to __init__.cpython-310.pyc
+[1.255s] running install_data
+[1.255s] creating /home/kvn/sar_ws/install/rescue_swarm_bringup/share/ament_index
+[1.255s] creating /home/kvn/sar_ws/install/rescue_swarm_bringup/share/ament_index/resource_index
+[1.255s] creating /home/kvn/sar_ws/install/rescue_swarm_bringup/share/ament_index/resource_index/packages
+[1.255s] copying resource/rescue_swarm_bringup -> /home/kvn/sar_ws/install/rescue_swarm_bringup/share/ament_index/resource_index/packages
+[1.255s] copying package.xml -> /home/kvn/sar_ws/install/rescue_swarm_bringup/share/rescue_swarm_bringup
+[1.255s] running install_egg_info
+[1.256s] Copying ../../build/rescue_swarm_bringup/rescue_swarm_bringup.egg-info to /home/kvn/sar_ws/install/rescue_swarm_bringup/lib/python3.10/site-packages/rescue_swarm_bringup-0.0.0-py3.10.egg-info
+[1.257s] running install_scripts
+[1.272s] writing list of installed files to '/home/kvn/sar_ws/build/rescue_swarm_bringup/install.log'
+[1.297s] Invoked command in '/home/kvn/sar_ws/src/rescue_swarm_bringup' returned '0': PYTHONPATH=/home/kvn/sar_ws/build/rescue_swarm_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kvn/sar_ws/install/rescue_swarm_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rescue_swarm_bringup build --build-base /home/kvn/sar_ws/build/rescue_swarm_bringup/build install --record /home/kvn/sar_ws/build/rescue_swarm_bringup/install.log --single-version-externally-managed install_data

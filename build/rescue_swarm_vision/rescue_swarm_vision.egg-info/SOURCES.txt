@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/rescue_swarm_vision/rescue_swarm_vision.egg-info/PKG-INFO
+../../build/rescue_swarm_vision/rescue_swarm_vision.egg-info/SOURCES.txt
+../../build/rescue_swarm_vision/rescue_swarm_vision.egg-info/dependency_links.txt
+../../build/rescue_swarm_vision/rescue_swarm_vision.egg-info/entry_points.txt
+../../build/rescue_swarm_vision/rescue_swarm_vision.egg-info/requires.txt
+../../build/rescue_swarm_vision/rescue_swarm_vision.egg-info/top_level.txt
+../../build/rescue_swarm_vision/rescue_swarm_vision.egg-info/zip-safe
+rescue_swarm_vision/__init__.py
+resource/rescue_swarm_vision
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
